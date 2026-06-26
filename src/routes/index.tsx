@@ -88,6 +88,7 @@ function Landing() {
         <CTA />
       </main>
       <Footer />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }} />
     </div>
   );
 }
