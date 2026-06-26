@@ -85,6 +85,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Mosaic AI" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@mosaic" },
+      { property: "og:title", content: "Mosaic AI — Intelligent Data Automation" },
+      { name: "twitter:title", content: "Mosaic AI — Intelligent Data Automation" },
+      { property: "og:description", content: "AI-powered data automation platform for teams that ship." },
+      { name: "twitter:description", content: "AI-powered data automation platform for teams that ship." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cf0e6c0e-3e92-46b1-a4b9-005b5732d460" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cf0e6c0e-3e92-46b1-a4b9-005b5732d460" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
