@@ -55,7 +55,7 @@ function FAQItem({
   onToggle: () => void;
   onArrow: (dir: 1 | -1) => void;
 }) {
-  const id = useRef(`faq-${Math.random().toString(36).slice(2)}`).current;
+  const id = useId();
   return (
     <li>
       <button
